@@ -1,0 +1,8 @@
+# Build
+colcon build --symlink-install --packages-select orbslam3
+
+# Run SLAM
+ros2 run orbslam3 rgbd
+
+# Run read camera
+ros2 run orbslam3 realsense415

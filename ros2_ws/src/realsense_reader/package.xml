@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+	<name>realsense_reader</name>
+	<version>1.0.0</version>
+	<description>Realsense stream, record publisher/subscriber using rclcpp</description>
+	<maintainer email="phanthanhtung0701@gmail.com">Phan Thanh Tung</maintainer>
+	<license>Apache License 2.0</license>
+	<author> Phan Thanh Tung </author>
+
+	<buildtool_depend>ament_cmake</buildtool_depend>
+	
+	<depend>rclcpp</depend>
+	<depend>rclpy</depend>
+	<depend>std_msgs</depend>
+	<depend>sensor_msgs</depend>
+	<depend>geometry_msgs</depend>
+	<depend>nav_msgs</depend>
+	<depend>cv_bridge</depend>
+	<depend>message_filters</depend>
+	<depend>image_transport</depend>
+	<depend>rosbag2_cpp</depend>
+
+	<export>
+    	<build_type>ament_cmake</build_type>
+  	</export>
+</package>
